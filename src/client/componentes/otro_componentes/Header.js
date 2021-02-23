@@ -45,7 +45,7 @@ export default function Header(){
           <div className="right-menu list-inline no-margin-bottom">
             <div className="list-inline-item">
               <a href="#" className="search-open nav-link">
-              <i class="fas fa-search"></i>
+              <i className="fas fa-search"></i>
               </a>
             </div>
             <div className="list-inline-item dropdown">

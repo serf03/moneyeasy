@@ -5,8 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-node src/server.js",
-    "start": "react-scripts start",
+    "start": "babel-node src/server.js",
     "build": "react-scripts build"
   },
   "repository": {
