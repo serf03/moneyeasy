@@ -6,10 +6,6 @@ import Sidebar from './sidebar'
 const Home = () => {
     return(
         <Fragment >
-        <div className="d-flex align-items-stretch">
-            <Sidebar />
-            <Content/>
-        </div>
         </Fragment>
     )
 }

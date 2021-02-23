@@ -9,7 +9,7 @@ export default function Header(){
         <div className="search-panel">
           <div className="search-inner d-flex align-items-center justify-content-center">
             <div className="close-btn">
-              Close <i className="fa fa-close"></i>
+              Cerrar <i className="fa fa-close"></i>
             </div>
             <form id="searchForm" action="#">
               <div className="form-group">
@@ -20,7 +20,7 @@ export default function Header(){
                   placeholder="What are you searching for..."
                 />
                 <button type="submit" className="submit">
-                  Search
+                  Buscar
                 </button>
               </div>
             </form>
@@ -45,7 +45,7 @@ export default function Header(){
           <div className="right-menu list-inline no-margin-bottom">
             <div className="list-inline-item">
               <a href="#" className="search-open nav-link">
-                <i className="icon-magnifying-glass-browser"></i>
+              <i class="fas fa-search"></i>
               </a>
             </div>
             <div className="list-inline-item dropdown">
@@ -70,7 +70,7 @@ export default function Header(){
                 >
                   <div className="profile">
                     <img
-                      src={require("../img/avatar-2.jpg")}
+                      src={require("../../img/avatar-2.jpg")}
                       alt="..."
                       className="img-fluid"
                     />
@@ -89,7 +89,7 @@ export default function Header(){
                 >
                   <div className="profile">
                     <img
-                      src={require("../img/avatar-2.jpg")}
+                      src={require("../../img/avatar-2.jpg")}
                       alt="..."
                       className="img-fluid"
                     />
@@ -108,7 +108,7 @@ export default function Header(){
                 >
                   <div className="profile">
                     <img
-                      src={require("../img/avatar-1.jpg")}
+                      src={require("../../img/avatar-1.jpg")}
                       alt="..."
                       className="img-fluid"
                     />
@@ -127,7 +127,7 @@ export default function Header(){
                 >
                   <div className="profile">
                     <img
-                      src={require("../img/avatar-5.jpg")}
+                      src={require("../../img/avatar-5.jpg")}
                       alt="..."
                       className="img-fluid"
                     />
@@ -446,13 +446,13 @@ export default function Header(){
                 aria-expanded="false"
                 className="nav-link language dropdown-toggle"
               >
-                <img src={require("../img/flags/16/GB.png")} alt="English" />
+                <img src={require("../../img/flags/16/GB.png")} alt="English" />
                 <span className="d-none d-sm-inline-block">English</span>
               </a>
               <div aria-labelledby="languages" className="dropdown-menu">
                 <a rel="nofollow" href="#" className="dropdown-item">
                   <img
-                    src={require("../img/flags/16/DE.png")}
+                    src={require("../../img/flags/16/DE.png")}
                     alt="English"
                     className="mr-2"
                   />
@@ -460,7 +460,7 @@ export default function Header(){
                 </a>
                 <a rel="nofollow" href="#" className="dropdown-item">
                   <img
-                    src={require("../img/flags/16/FR.png")}
+                    src={require("../../img/flags/16/FR.png")}
                     alt="English"
                     className="mr-2"
                   />
