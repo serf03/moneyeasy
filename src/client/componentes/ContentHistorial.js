@@ -12,7 +12,6 @@ const ContentHistorial = (props) => {
         <div className="footer__block block no-margin-bottom">
           <div className="container-fluid text-center">
           
-             <p className="no-margin-bottom">2018 © Your company. Download From <a target="_blank" href="#">Templates Hub</a>.</p>
           </div>
         </div>
       </footer>
