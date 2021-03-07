@@ -17,7 +17,7 @@ export default function Header(){
                   type="search"
                   name="search"
                   className="form-control"
-                  placeholder="What are you searching for..."
+                  placeholder="Escribe aqui.."
                 />
                 <button type="submit" className="submit">
                   Buscar
@@ -30,12 +30,12 @@ export default function Header(){
           <div className="navbar-header">
             <a href="index.html" className="navbar-brand">
               <div className="brand-text brand-big visible text-uppercase">
-                <strong className="text-primary">Dark</strong>
-                <strong>Admin</strong>
+                <strong className="text-primary">Money</strong>
+                <strong>Easy</strong>
               </div>
               <div className="brand-text brand-sm">
-                <strong className="text-primary">D</strong>
-                <strong>A</strong>
+                <strong className="text-primary">M</strong>
+                <strong>E</strong>
               </div>
             </a>
             <button className="sidebar-toggle">
@@ -436,7 +436,7 @@ export default function Header(){
             </div>
 
             <div className="list-inline-item dropdown">
-              <a
+              {/* <a
                 id="languages"
                 rel="nofollow"
                 data-target="#"
@@ -447,8 +447,8 @@ export default function Header(){
                 className="nav-link language dropdown-toggle"
               >
                 <img src={require("../../img/flags/16/GB.png")} alt="English" />
-                <span className="d-none d-sm-inline-block">English</span>
-              </a>
+                <span className="d-none d-sm-inline-block"></span>
+              </a> */}
               <div aria-labelledby="languages" className="dropdown-menu">
                 <a rel="nofollow" href="#" className="dropdown-item">
                   <img

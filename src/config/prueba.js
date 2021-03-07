@@ -1,7 +1,9 @@
 const DB = require("./db.conexion");
 
+let nombre='';
+
 const D = () => {
-    DB.query("select * from usuarios", (err, row, fields) => {
+    DB.query(`insert into usuarios (NOMBRE, APELLIDO) VALUE (${nombre})`, (err, row, fields) => {
         if(!err){
             console.log(row);
         }

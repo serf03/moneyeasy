@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Banner = () => {
+const Banner = (props) => {
     return(
         <section className="no-padding-top no-padding-bottom">
         <div className="container-fluid">
@@ -10,16 +10,16 @@ const Banner = () => {
                 <div className="progress-details d-flex align-items-end justify-content-between">
                   <div className="title">
                     <div className="icon">
-                      <i className="icon-user-1"></i>
+                      {/* <i className="icon-user-1"></i> */}
                     </div>
-                    <strong>New Clients</strong>
+                    <strong>{props.title1}</strong>
                   </div>
-                  <div className="number dashtext-1">27</div>
+                  <div className="number dashtext-1">{props.cantidad1}</div>
                 </div>
                 <div className="progress progress-template">
                   <div
                     role="progressbar"
-                    style={{width: "30%"}}
+                    style={{width: "100%"}}
                     aria-valuenow="30"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -33,16 +33,16 @@ const Banner = () => {
                 <div className="progress-details d-flex align-items-end justify-content-between">
                   <div className="title">
                     <div className="icon">
-                      <i className="icon-contract"></i>
+                      {/* <i className="icon-contract"></i> */}
                     </div>
-                    <strong>New Projects</strong>
+                    <strong>{props.title2}</strong>
                   </div>
-                  <div className="number dashtext-2">375</div>
+                  <div className="number dashtext-2">{props.cantidad2}</div>
                 </div>
                 <div className="progress progress-template">
                   <div
                     role="progressbar"
-                    style={{width: "70%"}}
+                    style={{width: "100%"}}
                     aria-valuenow="70"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -56,16 +56,16 @@ const Banner = () => {
                 <div className="progress-details d-flex align-items-end justify-content-between">
                   <div className="title">
                     <div className="icon">
-                      <i className="icon-paper-and-pencil"></i>
+                      {/* <i className="icon-paper-and-pencil"></i> */}
                     </div>
-                    <strong>New Invoices</strong>
+                    <strong>{props.title3}</strong>
                   </div>
-                  <div className="number dashtext-3">140</div>
+                  <div className="number dashtext-3">{props.cantidad3}</div>
                 </div>
                 <div className="progress progress-template">
                   <div
                     role="progressbar"
-                    style={{width: "55%"}}
+                    style={{width: "100%"}}
                     aria-valuenow="55"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -79,16 +79,16 @@ const Banner = () => {
                 <div className="progress-details d-flex align-items-end justify-content-between">
                   <div className="title">
                     <div className="icon">
-                      <i className="icon-writing-whiteboard"></i>
+                      {/* <i className="icon-writing-whiteboard"></i> */}
                     </div>
-                    <strong>All Projects</strong>
+                    <strong>{props.title4}</strong>
                   </div>
-                  <div className="number dashtext-4">41</div>
+                  <div className="number dashtext-4">{props.cantidad4}</div>
                 </div>
                 <div className="progress progress-template">
                   <div
                     role="progressbar"
-                    style={{width: "35%"}}
+                    style={{width: "100%"}}
                     aria-valuenow="35"
                     aria-valuemin="0"
                     aria-valuemax="100"
